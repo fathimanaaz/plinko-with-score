@@ -129,10 +129,10 @@ function draw() {
    if(gameState===END)
    {
      push();
-     textSize(60);
+     textSize(350);
      fill("white")
      text("GAME OVER",200,250);
-     textSize(50);
+     textSize(30);
      stroke("white")
      text("Press Space Key to Restart",100,340)
      pop();
